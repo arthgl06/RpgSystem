@@ -52,7 +52,10 @@ public class Main {
             for (int i = 0; i < initCharQuantity; i++) {
                 System.out.println(charList.get(i).toString());
                 System.out.println();
+                System.out.println("");
             }
+
+
 
 
 
