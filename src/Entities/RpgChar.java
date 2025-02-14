@@ -49,4 +49,8 @@ public class RpgChar {
     public void setMoney(double money) {
         this.money = money;
     }
+
+    public String toString(){
+        return "- ID: %d%n- NAME: %s%n- RACE: %s%n- LIFE: %.2f%n- MONEY: %.2f%n".formatted(id, name, race, life, money);
+    }
 }
